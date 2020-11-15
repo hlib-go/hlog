@@ -1,4 +1,4 @@
-module hlog
+module github.com/hlib-go/hlog
 
 go 1.14
 
