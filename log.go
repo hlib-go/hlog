@@ -8,5 +8,6 @@ func Now() (l *logrus.Logger) {
 	}()
 	logrus.SetFormatter(&logrus.JSONFormatter{})
 	logrus.SetLevel(logrus.InfoLevel)
+	//logrus.SetReportCaller(true) // 日志显示行号，默认false
 	return
 }
